@@ -1,0 +1,71 @@
+# -----------------------------
+# 🔹 General
+# -----------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.history
+.svn/
+.swiftpm/
+
+# -----------------------------
+# 🔹 IDE
+# -----------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# -----------------------------
+# 🔹 Flutter / Dart
+# -----------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+
+# -----------------------------
+# 🔹 Android
+# -----------------------------
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# -----------------------------
+# 🔹 iOS
+# -----------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+
+# -----------------------------
+# 🔹 Web build
+# -----------------------------
+web/build/
+
+# -----------------------------
+# 🔹 Sensitive files (VERY IMPORTANT)
+# -----------------------------
+.env
+.env.*
+*.jks
+*.keystore
+google-services.json
+key.properties
+
+# 👉 Google Cloud / Vision credentials
+*credentials*.json
+*service-account*.json
+
+# -----------------------------
+# 🔹 Misc
+# -----------------------------
+app.*.symbols
+app.*.map.json
